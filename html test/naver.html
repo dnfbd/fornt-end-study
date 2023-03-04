@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <!-- incoding method -->
+        <meta charset="utf-8" />
+        <!-- web page title -->
+        <title>네이버: 로그인</title>
+        <!-- rel:favicon을 정의 / type: favicon을 재정의 / href: ./ 현재 폴더를 의미 -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="./naver.css">
+    </head>
+    <body>
+        <header>
+          <div class="header-center" >
+            <div id ="skip">
+                <a href="https://www.naver.com/" class="blind">본문 바로가기</a>
+            </div>
+            <div id="header-logo">
+                <a href="https://www.naver.com/">
+                    <h1>
+                        <span class="blind">NAVER</span>
+                    </h1>
+                </a>
+            </div>
+            <div id="header-len">
+            <!-- drop box create -->
+            <select name = "world"> 
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="zh">中文(简体)</option>
+                <option value="zh">中文(台灣)</option>
+            </select>
+            <!-- unordered list = "정렬되지 않은 item"/ ordered list 사용시 정렬된 숫자로 변경됨 -->
+          </div>
+    </header>
+    <content>
+        <div id = "main_center"class="header-center">
+            <ul>
+                <li>
+                    <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com#none">
+                        <span class="menu_text">
+                            <span>ID 로그인</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com#none">
+                        <span class="menu_text"> 
+                            <span>일회용 번호</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com#none">
+                        <span class="menu_text">
+                            <span>QR코드</span>
+                        </span>
+                    </a>
+                </li>
+                <!-- <span>PC방 등 공용PC라면 QR코드 로그인이 더 안전해요.</span>
+                <button></button> -->
+            </ul>
+            <div id = "login_button" >
+                <div class="input">
+                    <div class="input_first">
+                        <div class = "table_icon">
+                            <!-- placeholder = 자리표시자 -->
+                            <span id="id_img">
+                                <span class="blind">아이디</span>
+                            </span>
+                        </div>
+                        <input class = "input_login" type="text" placeholder="아이디"/>
+                    </div>
+                    <div class="input_second">
+                        <div class = "table_icon">
+                            <!-- placeholder = 자리표시자 -->
+                            <span id="pw_img">
+                                <span class="blind">비밀번호</span>
+                            </span>
+                        </div>
+                        <input class = "input_login" type="password" placeholder="비밀번호"/>
+                    </div>
+                </div>
+            <div id="bottom">
+                <div id="login_situation">
+                    <input class="blind" type="checkbox" value="off">
+                    <span>로그인 상태 유지</span>
+                </div>
+                <div id="ip">
+                    <a href="https://nid.naver.com/login/ext/help_ip3.html">IP보안</a>
+                    <input type="checkbox">
+                    <label id="box">
+                        <span class="blind">off</span>
+                    </label>
+                </div>
+            </div>
+            <div id="btn_login_wrap">
+                <button>로그인</button>
+            </div>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR">
+                    <span>비밀번호 찾기</span>
+                </a>
+            </li>
+            <li>
+                <a class = "find_text" href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR">
+                    <span>아이디 찾기</span>
+                </a>
+           </li>
+           <li>
+            <a class = "find_text" href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR">
+                    <span>회원가입</span>
+            </a>
+           </li>
+        </ul>
+        <img src="./네이버로그인img.png" alt="로그인 하단 이미지"/>
+    </content>
+    <footer>
+        <div id="footer">
+            <ul>
+                <li>
+                    <a href="https://policy.naver.com/rules/service.html">
+                        <span>이용약관</span>
+                    </a>
+                </li>
+                <li>
+                    <a class ="footer_item" href="https://policy.naver.com/rules/privacy.html">
+                        <strong>개인정보처리방침</strong>
+                    </a>
+            </li>
+            <li>
+                <a class ="footer_item" href="https://policy.naver.com/rules/disclaimer.html">
+                        <span>책임의 한계와 법적고지</span>
+                </a>
+            </li>
+            <li>
+                <a class ="footer_item" href="https://help.naver.com/service/5640/category/bookmark?lang=ko">
+                        <span>회원정보 고객센터</span>
+                </a>
+            </li>
+            </ul>
+            <a href="https://www.navercorp.com/">
+                <span class="footer_logo">
+                    <span class="blind">네이버</span>
+                </span>
+            </a>
+                <span>Copyright</span>
+                <span>© NAVER Corp.</span>
+                <span>All Rights Reserved.</span>
+        </div>
+    </footer>    
+    </body>
+</html>
